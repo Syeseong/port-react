@@ -1,10 +1,49 @@
 import React from 'react'
+import about from "../assets/img/oboutme.jpg"
 
+const introTest = {
+    title: "port developer",
+    desc: ["talent is", "fount at the end of the", "effort"],
+}
 const Intro = () => {
     return (
-        <div>
-            Intro
-        </div>
+        <section id="intro">
+            <div className="intro__inner">
+                <h2 className="intro__title">
+                    {introTest.title}
+                </h2>
+                <div className="intro__lines" aria-hidden="true">
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                </div>
+                <div className="intro__text">
+                    <div className="text">
+                        {introTest.desc.map((desc, idx) => {
+                            return (
+                                <div key={idx}>{desc}</div>
+                            )
+                        })}
+                    </div>
+                    <div className="img">
+                        <img src={about} alt="어바웃미" />
+                    </div>
+                </div>
+                <div className="intro__lines bottom" aria-hidden="true">
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                    <span className="line"></span>
+                </div>
+            </div>
+        </section>
     )
 }
 
