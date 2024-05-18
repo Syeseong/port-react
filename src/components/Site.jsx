@@ -1,46 +1,5 @@
 import React from 'react'
-const siteData = [
-    {
-        title: "VITE를 이용한 사이트 제작",
-        text: ["make", "site compliant width", "webstandard"],
-        btn: ["code", "view"],
-        info: {
-            subject: "site coding",
-            period: "production period : two days",
-            stack: "use stack : html5/css3, CSS Variable, Vite",
-        },
-    },
-    {
-        title: "React를 이용한 사이트 제작",
-        text: ["make", "site compliant width", "webstandard"],
-        btn: ["code", "view"],
-        info: {
-            subject: "site coding",
-            period: "production period : two days",
-            stack: "use stack : html5/css3, CSS Variable, React",
-        },
-    },
-    {
-        title: "Vue를 이용한 사이트 제작",
-        text: ["make", "site compliant width", "webstandard"],
-        btn: ["code", "view"],
-        info: {
-            subject: "site coding",
-            period: "production period : two days",
-            stack: "use stack : html5/css3, CSS Variable, Vue",
-        },
-    },
-    {
-        title: "Next를 이용한 사이트 제작",
-        text: ["make", "site compliant width", "webstandard"],
-        btn: ["code", "view"],
-        info: {
-            subject: "site coding",
-            period: "production period : two days",
-            stack: "use stack : html5/css3, CSS Variable, Next",
-        },
-    },
-];
+import { siteData } from '../constants/index'
 const Site = () => {
     return (
         <section id="site">

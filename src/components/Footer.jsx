@@ -1,10 +1,6 @@
 import React from 'react';
+import { socialLinks } from '../constants/index'
 
-const socialLinks = [
-    { name: "GITHUB", desc: "GITHUB에 들어오시면 모든 작업물들을 볼 수 있습니다.", href: "#" },
-    { name: "TISTORY", desc: "티스토리에 들어오시면 개인 개발일지를 볼 수 있습니다.", href: "#" },
-    { name: "INSTAGRAM", desc: "개인 인스타그램 입니다.", href: "#" },
-];
 
 const SocialLink = ({ name, desc, href }) => (
     <li>

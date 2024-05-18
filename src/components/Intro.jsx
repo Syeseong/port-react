@@ -1,10 +1,7 @@
 import React from 'react'
 import about from "../assets/img/oboutme.jpg"
 
-const introText = {
-    title: "port developer",
-    desc: ["talent is", "fount at the end of the", "effort"],
-}
+import { introText } from '../constants/index'
 const Intro = () => {
     return (
         <section id="intro">
