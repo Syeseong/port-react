@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="footer__info">
                     <div className="left">
                         <div className="title">
-                            <a href="#">good bye</a>
+                            <a href="/">good bye</a>
                         </div>
                         <p className="desc">봐주셔서 감사합니다.</p>
                     </div>

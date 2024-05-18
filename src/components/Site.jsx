@@ -22,7 +22,7 @@ const Site = () => {
                                 </h3>
                                 <div className='btn'>
                                     {item.btn.map((btn, idx) => (
-                                        <a href="#" key={idx}>{btn}</a>
+                                        <a href="/" key={idx}>{btn}</a>
                                     ))}
                                 </div>
                                 <div className='info'>

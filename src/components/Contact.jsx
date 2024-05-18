@@ -17,10 +17,10 @@ const Contact = () => {
                 <div class="contact__text">
                     <div class="text">
                         <div>
-                            <a href="#">KAKAO : ...</a>
+                            <a href="/">KAKAO : ...</a>
                         </div>
                         <div>
-                            <a href="#">mail : ...@NAVER.COM</a>
+                            <a href="/">mail : ...@NAVER.COM</a>
                         </div>
                     </div>
                 </div>
