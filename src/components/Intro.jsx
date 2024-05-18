@@ -1,7 +1,7 @@
 import React from 'react'
 import about from "../assets/img/oboutme.jpg"
 
-const introTest = {
+const introText = {
     title: "port developer",
     desc: ["talent is", "fount at the end of the", "effort"],
 }
@@ -10,7 +10,7 @@ const Intro = () => {
         <section id="intro">
             <div className="intro__inner">
                 <h2 className="intro__title">
-                    {introTest.title}
+                    {introText.title}
                 </h2>
                 <div className="intro__lines" aria-hidden="true">
                     <span className="line"></span>
@@ -23,7 +23,7 @@ const Intro = () => {
                 </div>
                 <div className="intro__text">
                     <div className="text">
-                        {introTest.desc.map((desc, idx) => {
+                        {introText.desc.map((desc, idx) => {
                             return (
                                 <div key={idx}>{desc}</div>
                             )
